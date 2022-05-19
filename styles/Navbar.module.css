@@ -1,0 +1,74 @@
+@media (min-width: 1200px) {
+    .navlinkleft {
+        color: white !important;
+        margin-right: 35px;
+    }
+    
+    .navlinkright {
+        color: white !important;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navlinkleft {
+        color: white !important;
+        margin-right: 10px;
+    }
+    
+    .navlinkright {
+        color: white !important;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navlinkleft {
+        color: white !important;
+        margin-right: 0px;
+        text-align: end;
+    }
+    
+    .navlinkright {
+        color: white !important;
+        margin-left: 0px;
+        text-align: end;
+    }
+    
+    
+    .navbarBg{
+        background: black !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .abs {
+        position: absolute;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+.windowscroll {
+    background: black !important;
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1rem 1 rem #737373 !important;
+}
+
+.navLogin{
+    background-color: white;
+    color: black !important;
+    border-radius: 3rem;
+    font-weight: bold;
+    float: right;
+    /* display: inline-block; */
+}
+
+.activeLink{
+    border-bottom: 3px solid white;
+    /* width: 10%; */
+}
