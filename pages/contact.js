@@ -9,14 +9,14 @@ export default function Contact() {
                 <div className="container">
                     <aside>
                         <h4> Get in touch</h4>
-                        <p>We'd love to hear from your. Our friendly team is here to chat with you. </p>
+                        <p>We&apos;d love to hear from your. Our friendly team is here to chat with you. </p>
 
                         <div className="info">
                             <article>
                                 <span className="icon"><i className="uil uil-envelope"></i></span>
                                 <div className="details">
                                     <h5>Chat with us</h5>
-                                    <small>Send us an email we'll respond shortly.</small>
+                                    <small>Send us an email we&apos;ll respond shortly.</small>
                                     <p>paulo.escobar@zanco.com.mx</p>
 
                                 </div>
@@ -28,7 +28,6 @@ export default function Contact() {
                                     <small>Come say hello at our office HQ</small>
                                     <p>Monterrey, Nuevo Leon</p>
                                     <p>Carretera Nacional</p>
-
                                 </div>
                             </article>
                             <article>

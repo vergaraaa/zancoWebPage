@@ -32,22 +32,22 @@ export default function Index() {
                     <div className="row mt-5 h-100 g-0 d-flex">
                         <div className="col-1 align-self-center text-center">
                             <div className="row">
-                                <a className={styles.socials} href="https://www.facebook.com/zancofb" target="_blank">
+                                <a className={styles.socials} href="https://www.facebook.com/zancofb" target="_blank" rel="noreferrer">
                                     <Icon icon="bxl:facebook" />
                                 </a>
                             </div>
                             <div className="row">
-                                <a className={styles.socials} href="https://www.instagram.com/zanco_ig/" target="_blank">
+                                <a className={styles.socials} href="https://www.instagram.com/zanco_ig/" target="_blank" rel="noreferrer">
                                     <Icon icon="akar-icons:instagram-fill" />
                                 </a>
                             </div>
                             <div className="row">
-                                <a className={styles.socials} href="https://twitter.com/Zanco_tw" target="_blank">
+                                <a className={styles.socials} href="https://twitter.com/Zanco_tw" target="_blank" rel="noreferrer">
                                     <Icon icon="akar-icons:twitter-fill" />
                                 </a>
                             </div>
                             <div className="row">
-                                <a className={styles.socials} href="https://linktr.ee/Zanco.lt" target="_blank">
+                                <a className={styles.socials} href="https://linktr.ee/Zanco.lt" target="_blank" rel="noreferrer">
                                     <Icon icon="simple-icons:linktree" />
                                 </a>
                             </div>
@@ -323,7 +323,7 @@ export default function Index() {
 
                         <div className="col-lg">
                             <div className={`${styles.testimonial}`}>
-                                <p>Zanco has presented itself to be one of the most reliable and trustworthy integration companies out there. We have collaborated for over a year and we've only had smooth negotiations and profesional buisness.</p>
+                                <p>Zanco has presented itself to be one of the most reliable and trustworthy integration companies out there. We have collaborated for over a year and we&apos;ve only had smooth negotiations and profesional buisness.</p>
                                 <div className={`${styles.testimonial__work}`}>
                                     <div className="col-lg-2">
                                         <img className={`loaded rounded-circle float-start ${styles.avatar}`} src="/img/avatar3.png" alt="" />
@@ -416,7 +416,7 @@ export default function Index() {
                         <h4> Download here</h4>
                         <div className="row">
                             <div className="col-lg-4">
-                                <a className='btn btn-primary justify-content-center' target='_blank' href='https://www.canva.com/design/DAE3DXmbMEY/3n68pCChUWjR3LkVTJHMnQ/view?utm_content=DAE3DXmbMEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
+                                <a className='btn btn-primary justify-content-center' target='_blank' rel="noreferrer" href='https://www.canva.com/design/DAE3DXmbMEY/3n68pCChUWjR3LkVTJHMnQ/view?utm_content=DAE3DXmbMEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
                                     <img className='float-start' src="/img/catalog2.png" style={{ width: '3rem' }} />
                                     <div className='float-end mx-auto mt-3 ms-2'>INDUSTRIAL CATALOGUE</div>
                                 </a>
