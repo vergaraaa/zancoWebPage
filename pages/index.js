@@ -116,7 +116,7 @@ export default function Index() {
             {/* ORDERS */}
             <section id='orders' className=''>
                 <br /><br /><br />
-                <h2 className='text-center text-decoration-underline'>It's easy as ordering a coffee</h2>
+                <h2 className='text-center text-decoration-underline'>It&apos;s easy as ordering a coffee</h2>
                 <br />
                 <h4 className='text-center'>Everything revolves around the digital brain called Integral Engine (IE)</h4>
                 <div className={`${styles.blackOrderContainer}`}>
