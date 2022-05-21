@@ -206,7 +206,7 @@ export default function Index() {
                                 <h3 className='text-center text-white pt-3'>#3</h3>
                                 <h3 className='text-center text-white p-5'>
                                     Each order will be registered within our system where you will be able check the status of
-                                    each orderd, it’s progress and follow-ups.
+                                    each orderd, it&apos;s progress and follow-ups.
                                 </h3>
                             </div>
                         </div>
