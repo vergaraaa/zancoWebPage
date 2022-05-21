@@ -48,7 +48,7 @@ h3 {
 }
 
 section {
-    padding-bottom: var(--bottom-section-padding);
+    /* padding-bottom: var(--bottom-section-padding); */
 }
 
 footer {

@@ -8,19 +8,19 @@ export default function Navbar() {
     const router = useRouter();
 
     useEffect(() => {
-        if (router.pathname == '/contact') {
+        if (router.pathname == '/contact' || router.pathname == '/packaging') {
             document.querySelector('nav').style.backgroundColor = 'black';
         }
         else {
             window.addEventListener('scroll', () => {
-                document.getElementById('#nav').classList.toggle(styles.navbarBg , window.scrollY > 0);
-                document.querySelector('nav').classList.toggle(styles.windowscroll , window.scrollY > 0);
+                document.getElementById('#nav').classList.toggle(styles.navbarBg, window.scrollY > 0);
+                document.querySelector('nav').classList.toggle(styles.windowscroll, window.scrollY > 0);
             });
         }
     })
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-dark ${router.pathname == '/contact' ? '' : 'bg-transparent '} fixed-top`} style={{ height: '6rem', color: 'white!important' }}>
+        <nav className={`navbar navbar-expand-lg navbar-dark ${router.pathname == '/contact' || router.pathname == '/packaging' ? '' : 'bg-transparent '} fixed-top`} style={{ height: '6rem', color: 'white!important' }}>
             <div id='#nav' className={`container-fluid`}>
                 <Link href="/">
                     <a className={`${styles.abs} navbar-brand`}>
@@ -54,6 +54,11 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <ul className={`navbar-nav ms-auto`}>
+                            <li className="nav-item">
+                                <Link href="/packaging">
+                                    <a className={`nav-link ${styles.navlinkright} ${router.pathname == "/packaging" ? styles.activeLink : ""}`}>Packaging</a>
+                                </Link>
+                            </li>
                             <li className="nav-item">
                                 <Link href="/#catalogue">
                                     <a className={`nav-link ${styles.navlinkright} ${router.asPath == "/#catalogue" ? styles.activeLink : ""}`}>Download Catalog</a>

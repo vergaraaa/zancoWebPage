@@ -25,8 +25,8 @@ export default function Index() {
                     </div>
                 </div>
             </div>
-
             {/* END MODAL */}
+
             <header className={styles.header}>
                 <div className="h-100 g-0">
                     <div className="row mt-5 h-100 g-0 d-flex">
@@ -61,9 +61,10 @@ export default function Index() {
                 </div>
             </header>
 
-            {/* WHATWEDO */}
-            <article id='whatwedo' className='' style={{ backgroundColor: 'black' }}>
+            {/* ABOUT */}
+            <article id='about' className='pt-5 ' style={{ backgroundColor: 'black' }}>
                 <div className="container">
+                    <br /><br />
                     <div className="row">
                         <div className="col-lg-6 text-white">
                             <h2 className='text-white' style={{ fontWeight: 'bold' }}>What we do</h2>
@@ -110,23 +111,166 @@ export default function Index() {
 
                 </div>
             </article>
-            {/* END WHATWEDO */}
-
-            {/* GIFT */}
-            <section id='gift' className=''>
-                <div className="container">
-                    <div className="row vh-100 justify-content-center align-items-center">
-                        <div className="col-lg-12 text-center">
-                            <img className={`loaded ${styles.gift}`} src="/img/gift.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* END GIFT */}
+            {/* END ABOUT */}
 
             {/* ORDERS */}
             <section id='orders' className=''>
-                <div className="container-fluid">
+                <br /><br /><br />
+                <h2 className='text-center text-decoration-underline'>It's easy as ordering a coffee</h2>
+                <br />
+                <h4 className='text-center'>Everything revolves around the digital brain called Integral Engine (IE)</h4>
+                <div className={`${styles.blackOrderContainer}`}>
+                    <h3 className='text-center text-white pt-3'>#1</h3>
+                    <h3 className='text-center text-white'>Choose your area of interest</h3>
+                    <div className="container">
+                        <div className="row text-center align-items-center mt-5">
+                            <div className="col-lg-4">
+                                <h3 className='text-white py-5'>YOU ASK</h3>
+                            </div>
+                            <div className={` col-lg-4 text-center mx-auto py-4`}>
+                                <img className={`${styles.newGift} loaded img-fluid p-5`} src="/img/new_gift.png" style={{ height: '200px', width: '60%' }} />
+                            </div>
+                            <div className="col-lg-4">
+                                <h3 className='text-white py-5'>WE MANAGE</h3>
+                            </div>
+                        </div>
+                        <div className="row mt-4">
+                            <div className="col-lg-12 text-center"><img className={`loaded ${styles.dot}`} src="/img/dot.png" /></div>
+                        </div>
+                        <div className="row mt-2">
+                            <div className="col-lg-12 text-center"><img className={`loaded ${styles.dot}`} src="/img/dot.png" /></div>
+                        </div>
+                        <div className={`${styles.gridServices} py-5`}>
+                            <div className={`${styles.gridServicesItem}`}>
+                                <img className={`loaded img-fluid`} src="/img/floor.png" style={{ height: '100px' }} />
+                                <p className='mt-3'>Flooring & Crates</p>
+                            </div>
+                            <img className={`loaded ${styles.dot} my-auto text-center`} src="/img/dot.png" />
+                            <div className={`${styles.gridServicesItem}`}>
+                                <img className={`loaded img-fluid`} src="/img/package.png" style={{ height: '100px' }} />
+                                <p className='mt-3'>Plasters</p>
+                            </div>
+                            <img className={`loaded ${styles.dot} my-auto text-center`} src="/img/dot.png" />
+                            <div className={`${styles.gridServicesItem}`}>
+                                <img className={`loaded img-fluid`} src="/img/foam.png" style={{ height: '100px' }} />
+                                <p className='mt-3'>Foam</p>
+                            </div>
+                            <img className={`loaded ${styles.dot} my-auto text-center`} src="/img/dot.png" />
+                            <div className={`${styles.gridServicesItem}`}>
+                                <img className={`loaded img-fluid`} src="/img/dryice.png" style={{ height: '100px' }} />
+                                <p className='mt-3'>Dry Ice</p>
+                            </div>
+                            <img className={`loaded ${styles.dot} my-auto text-center`} src="/img/dot.png" />
+                            <div className={`${styles.gridServicesItem}`}>
+                                <img className={`loaded img-fluid`} src="/img/cardboard.png" style={{ height: '100px' }} />
+                                <p className='my-auto'>Cardboards & Corrugated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <section style={{ backgroundColor: '#ebebeb' }}> */}
+                <section>
+                    <div className={`${styles.registryBackground}`}>
+                        <div className='pt-3'></div>
+                        <h2 className='text-white text-center pt-5'>REGISTRY</h2>
+                        <br /><br /><br /><br /><br />
+                        <br /><br /><br /><br /><br />
+                    </div>
+                    <div className="container">
+                        <div className="row text-center">
+                            <div className={`col-lg-4 align-self-start mb-5`}>
+                                <div className="row">
+                                    <div className={`col-lg-12 ${styles.registryElementsBackground}`}>
+                                        <h3 className='text-center text-white pt-3'>#2</h3>
+                                        <h3 className='text-center text-white px-4'>
+                                            Each area has a simple forms where you can register a new packaging order of a specific category.
+                                        </h3>
+                                    </div>
+                                </div>
+                                <br />
+                                <br />
+                                <div className="row">
+                                    <div className={`col-lg-12 ${styles.registryElementsBackground}`}>
+                                        <h3 className='text-center text-white p-5'>
+                                            Quick register
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 pb-5">
+                                <img className={`loaded img-fluid`} src="/img/document.png" style={{ height: '250px', width: '50%' }} />
+
+                            </div>
+                            <div className={`col-lg-4 align-self-start ${styles.registryElementsBackground}`}>
+                                <h3 className='text-center text-white pt-3'>#3</h3>
+                                <h3 className='text-center text-white p-5'>
+                                    Each order will be registered within our system where you will be able check the status of
+                                    each orderd, it’s progress and follow-ups.
+                                </h3>
+                            </div>
+                        </div>
+                        <div className="row m-5">
+                            <h1 className='text-center'>3D MODEL</h1>
+                        </div>
+                        <br />
+
+                        <div className="container">
+                            <div className={`row p-5 ${styles.followUps}`}>
+                                <div className="col-lg-5 p-4">
+                                    <h3 className='text-white'>#4</h3>
+                                    <h2 className='text-white py-3'>
+                                        FOLLOW UPS <br /> AND ADVISORY
+                                    </h2>
+                                    <h4 className='text-white'>
+                                        You will be assigned an advisor with whom you can negotiate and review the progress of each order directly.
+                                    </h4>
+                                </div>
+                                <div className="col-lg-5 offset-lg-2 p-5">
+                                    <h5 className='text-center text-white'>Contact us through: </h5>
+                                    <div className="row">
+                                        <div className="col-lg-6 text-center">
+                                            <img className={`loaded p-3 img-fluid`} style={{ height: '60%' }} src="/img/whatsapp_icon.png" />
+                                            <h4 className='text-center text-white'>Whatsapp</h4>
+                                        </div>
+                                        <div className="col-lg-6 text-center">
+                                            <img className={`loaded p-3 img-fluid`} style={{ height: '60%' }} src="/img/phone_icon.png" />
+                                            <h4 className='text-center text-white'>Phone</h4>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-lg-6 text-center">
+                                            <img className={`loaded p-3 img-fluid`} style={{ height: '60%' }} src="/img/email_icon.png" />
+                                            <h4 className='text-center text-white'>Email</h4>
+                                        </div>
+                                        <div className="col-lg-6 text-center">
+                                            <img className={`loaded p-3 img-fluid`} style={{ height: '60%' }} src="/img/person_icon.png" />
+                                            <h4 className='text-center text-white'>Physically</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row pt-5 mt-5">
+                            <div className="col-lg-7 mx-auto">
+                                <img className={`loaded py-5 img-fluid`} style={{ height: '30%' }} src="/img/quotes_icon.png" />
+                                <h3 className='lh-base' style={{ textAlign: 'justify'}}>
+                                    Streamlining processes is our <span className={`${styles.quoteHighlight}`}>specialty</span>, at Zanco we understand that packaging is an
+                                    <span className={`${styles.quoteHighlight}`}>important</span> and <span className={`${styles.quoteHighlight}`}>necessary</span> need for all manufacturing.
+                                </h3>
+                                <div className="row mt-3">
+                                    <div className="col-lg">
+                                        <h6 className='text-end'>Paulo Escobar</h6>
+                                        <h6 className='text-end'>-Zanco CEO</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* <div className="container-fluid">
                     <div className={`container ${styles.grayOrderContainer}`}>
                         <div className={`container ${styles.blackOrderContainer}`}>
                             <div className="row ">
@@ -189,92 +333,9 @@ export default function Index() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             {/* END ORDERS */}
-
-            {/* ABOUT  */}
-            <section id="about" className='pt-5'>
-                <h1 className={`${styles.about__title} text-center pt-5`}> About Us</h1>
-                <div className="container">
-                    {/* FOAMS */}
-                    <article>
-                        <div className="row pt-5">
-                            <div className="col-lg-5 offset-lg-1">
-                                <img className="loaded img-fluid" src="/img/about1.png" alt="" />
-                            </div>
-                            <div className="col-lg-5 offset-lg-1">
-                                <h2 className={styles.about__article__title}>Foams</h2>
-                                <div className={styles.about__content}>
-                                    <p> We manage the distribution of foams such as polyethylene, closed cell, neoprene and polyurethane.
-                                        All of which have multiple application areas for example: lamination films,
-                                        sealants, frozen food packaging, among others.
-                                    </p>
-                                    <a href="index.html#downloadCatalogo" className="btn btn-primary">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    {/* PACKAGING */}
-                    <article>
-                        <div className="row pt-5">
-                            <div className={`col-lg-5 offset-lg-1 ${styles.flexReverseContent}`}>
-                                <h2 className={styles.about__article__title}>Packaging</h2>
-                                <div className={styles.about__content}>
-                                    <p> Part of our administration relies on industrial packaging material such as: Foam, Polybags and plasters.
-                                    </p>
-                                    <a href="index.html#downloadCatalogo" className="btn btn-primary">Learn More</a>
-                                </div>
-                            </div>
-                            <div className={`col-lg-5 offset-lg-1 ${styles.flexReverseImage}`}>
-                                <img className="loaded img-fluid" src="/img/about2.png" alt="" />
-                            </div>
-                        </div>
-                    </article>
-
-                    {/* SEALING AND CUTS */}
-                    <article>
-                        <div className="row pt-5">
-                            <div className="col-lg-5 offset-lg-1">
-                                <img className="loaded img-fluid" src="/img/about3.png" alt="" />
-                            </div>
-                            <div className="col-lg-5 offset-lg-1">
-                                <h2 className={styles.about__article__title}>Sealing and Cuts</h2>
-                                <div className={styles.about__content}>
-                                    <p> Our catalog also includes products for sealing and cuts such as industrial EPDM (rubber) , EVA (rubber/foam) and COROPLAST.
-                                    </p>
-                                    <a href="index.html#downloadCatalogo" className="btn btn-primary">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            {/* END ABOUT */}
-
-            {/* CLIENTS */}
-            <section id='clients' className='pt-5'>
-                <h1 className={`${styles.about__title} text-center pt-5`}>PSA Adhesive Brand</h1>
-                <p className='text-center pt-4'>We only manage premium Adhesive brands.</p>
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-3">
-                            <img className="loaded img-fluid" src="/img/client1.png" alt="" />
-                        </div>
-                        <div className="col-lg-3">
-                            <img className="loaded img-fluid" src="/img/client2.png" alt="" />
-                        </div>
-                        <div className="col-lg-3">
-                            <img className="loaded img-fluid" src="/img/client3.png" alt="" />
-                        </div>
-                        <div className="col-lg-3">
-                            <img className="loaded img-fluid" src="/img/client4.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* END CLIENTS */}
 
             {/* TESTIMONIALS */}
             <section id='testimonials' className='pt-5'>
